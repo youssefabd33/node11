@@ -1,0 +1,5 @@
+.replit
+ h.txt
+ node_modules/
+  package-lock.json
+  replit.nix
