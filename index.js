@@ -55,7 +55,7 @@ const message=req.body.message;
       .save()
       .then(() => {
         console.log("User saved successfully");
-        res.send("User saved successfully");
+       res.sendFile(path.join(__dirname, "thank.html"));
       })
       .catch((error) => {
         console.error("Error saving user:", error);
